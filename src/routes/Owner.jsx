@@ -16,8 +16,8 @@ const Owner = () => {
           "Sock" :D
         </h3>
       </div>
-      <h2 className="text-xl font-bold p-2">Short Biography:</h2>
-      <p className="font-semibold p-2">"Hi my name is Boss. I found <strong>Generation Thailand</strong> by accident on LinkedIn. That day I was looking for a future customer and found a person who had graduated in JSD <em>(I can't remember which cohort)</em>. If I remember correctly, she works in a game company now, and that's how I started dreaming of working in the game industry.I had applied once before but was unable to pass the initial assessment. At that time, I hadn't tried hard enough. It wasn't until Cohort 11 that I completed everything, because I am now genuinely determined to switch my career path. This persistence reflects how serious I am about joining the game industry, and I hope it will lead to the chance to meet you and start this new journey." </p>
+      <h2 className="text-xl font-bold">Short Biography:</h2>
+      <p className="font-semibold p-5">"Hi my name is Boss. I found <strong>Generation Thailand</strong> by accident on LinkedIn. That day I was looking for a future customer and found a person who had graduated in JSD <em>(I can't remember which cohort)</em>. If I remember correctly, she works in a game company now, and that's how I started dreaming of working in the game industry.I had applied once before but was unable to pass the initial assessment. At that time, I hadn't tried hard enough. It wasn't until Cohort 11 that I completed everything, because I am now genuinely determined to switch my career path. This persistence reflects how serious I am about joining the game industry, and I hope it will lead to the chance to meet you and start this new journey." </p>
     </div>
   );
 };

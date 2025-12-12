@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Owner from "./routes/Owner";
+import Home_user from "./routes/Home_user";
+import Home_admin from "./routes/Home_admin";
 
 export default function App() {
   return (
@@ -9,7 +11,9 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Owner" element={<Owner />} />
+        <Route path="user_home_view" element={<Home_user />} />
+        <Route path="admin_home_view" element={<Home_admin />} />
+        <Route path="owner" element={<Owner />} />
       </Routes>
     </div>
   );

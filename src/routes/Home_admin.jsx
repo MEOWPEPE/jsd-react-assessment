@@ -6,6 +6,7 @@ function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-200">
+      <h1>Admin_Home_View</h1>
       <div>
         <h1 className="text-4xl font-bold p-4">
           Gerenation Thailand<br></br>React - Assessment
@@ -17,7 +18,7 @@ function Home() {
           onClick={() => {
             navigate("../user_home_view");
           }}
-          className="bg-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-100"
+          className=" bg-white font-semibold py-2 px-4 rounded-lg hover:bg-gray-100"
         >
           User Home View
         </button>
