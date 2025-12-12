@@ -6,7 +6,7 @@ const Owner = () => {
       <h1 className="text-2xl font-bold p-4">21_Narathorn (Boss) - JSD11</h1>
       <div>
         <img
-          class="h-100 w-100 object-cover border-2"
+          className="h-100 w-100 object-cover border-2"
           src="https://img5.pic.in.th/file/secure-sv1/167973cb610cc58c5f480f.jpg"
         ></img>
       </div>
